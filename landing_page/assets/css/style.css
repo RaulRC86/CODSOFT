@@ -1,3 +1,5 @@
+* {margin: 0; padding: 0;}
+
 .grid-container{
     display: grid;
     padding: 10px;
@@ -13,7 +15,7 @@
 
   header {
     grid-area: header;
-    background-color: #ff9800;
+    background-color: #088b48;
     color: white;
     padding: 20px;
   }
@@ -22,7 +24,7 @@
   aside {
     grid-area: aside;
     background-color: #f4f4f4;
-    padding: 20px;
+    padding-block: 20px;
     display: flex;
     justify-content: left;
   }
@@ -30,14 +32,22 @@
 
   main {
     grid-area: main;
-    background-color: #f4f4f4;
-    padding: 20px;
+    background-color: white;
   }
+
+  .product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f4f4f4;
+  }
+
+  .product img {height: 200px; width: auto;}
   
 
   footer {
     grid-area: footer;
-    background-color: #ff9800;
+    background-color: #088b48;
     color: white;
     padding: 20px;
   }
