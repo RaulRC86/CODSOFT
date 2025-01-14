@@ -19,6 +19,8 @@
     color: white;
     padding: 20px;
   }
+
+  .cart{display: flex; justify-content: flex-end;}
   
 
   aside {
@@ -33,16 +35,21 @@
   main {
     grid-area: main;
     background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
   }
 
   .product {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     border: 1px solid #f4f4f4;
   }
 
-  .product img {height: 200px; width: auto;}
+  .product img {height: auto; width: 250px;}
   
 
   footer {
@@ -50,6 +57,7 @@
     background-color: #088b48;
     color: white;
     padding: 20px;
+    position: 0 fixed;
   }
   
 
