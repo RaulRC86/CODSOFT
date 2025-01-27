@@ -39,7 +39,7 @@
     grid-area: main;
     background-color: white;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     margin: 20px;
