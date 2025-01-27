@@ -29,10 +29,14 @@
     grid-area: aside;
     background-color: #f4f4f4;
     padding-block: 20px;
+    padding-inline: 20px;
     display: flex;
     justify-content: left;
     text-align: center;
   }
+
+  aside li{cursor: pointer; margin-block: 20px;}
+  aside li:hover{background-color: #088b48; color: white;}
   
 
   main {
@@ -53,7 +57,7 @@
     border: 1px solid #f4f4f4;
   }
 
-  .product img {height: auto; width: 250px;}
+  .product img {height: 300px; width: auto;}
   
 
   footer {
