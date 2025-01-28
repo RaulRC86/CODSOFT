@@ -8,7 +8,7 @@
       "aside main main"
       "aside main main"
       "footer footer footer";
-    padding: 10px;
+
     text-align: center;
   }
   
@@ -42,7 +42,9 @@
   main {
     grid-area: main;
     background-color: white;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
