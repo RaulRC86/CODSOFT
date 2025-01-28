@@ -31,11 +31,12 @@
     padding-block: 20px;
     padding-inline: 20px;
     display: flex;
-    justify-content: left;
-    text-align: center;
+    justify-content: center;
+    font-size: large;
+    max-height: 100vh;
   }
 
-  aside li{cursor: pointer; margin-block: 20px;}
+  aside li{cursor: pointer; margin-block: 40px;}
   aside li:hover{background-color: #088b48; color: white;}
   
 
@@ -60,6 +61,15 @@
   }
 
   .product img {height: 300px; width: auto;}
+
+  .addBtn {
+    background-color: #088b48;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
   
 
   footer {
