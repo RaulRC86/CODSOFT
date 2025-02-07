@@ -1,5 +1,4 @@
 const display = document.querySelector('#display');
-const preResult = document.querySelector('#pre-result');
 
 function appendToDisplay(input) {
   display.value += input;
